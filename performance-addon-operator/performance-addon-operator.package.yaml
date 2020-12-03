@@ -1,0 +1,7 @@
+channels:
+- currentCSV: performance-addon-operator.v4.7.0
+  name: stable
+- currentCSV: performance-addon-operator.v4.7.1
+  name: hotfix
+defaultChannel: stable
+packageName: performance-addon-operator
