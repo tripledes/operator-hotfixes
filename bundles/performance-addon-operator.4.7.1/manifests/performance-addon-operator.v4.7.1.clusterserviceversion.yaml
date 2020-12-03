@@ -81,7 +81,7 @@ metadata:
         }
       ]
     capabilities: Basic Install
-    containerImage: REPLACE_IMAGE
+    containerImage: quay.io/sejimene/performance-addon-operartor:4.7.1
     description: Operator to optimize OpenShift clusters for applications sensitive to CPU and network latency.
     olm.skipRange: '>=4.6.0 <4.7.1'
     operators.operatorframework.io/builder: operator-sdk-v1.0.0
@@ -185,7 +185,7 @@ spec:
                       fieldPath: metadata.name
                 - name: OPERATOR_NAME
                   value: performance-operator
-                image: REPLACE_IMAGE
+                image: quay.io/sejimene/performance-addon-operartor:4.7.1
                 imagePullPolicy: Always
                 name: performance-operator
                 resources: {}
