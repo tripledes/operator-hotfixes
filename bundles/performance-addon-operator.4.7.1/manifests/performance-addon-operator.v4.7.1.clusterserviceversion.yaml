@@ -250,6 +250,7 @@ spec:
   provider:
     name: Red Hat
   version: 4.7.1
+  replaces: performance-addon-operator.v4.7.0
   webhookdefinitions:
   - admissionReviewVersions:
     - v1
